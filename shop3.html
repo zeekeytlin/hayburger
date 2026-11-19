@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hayburger | Everyday Comfort Tee</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <nav class="navbar">
+
+    <a href="index.html" class="logo" aria-label="Hayburger Home">
+        <img src="images/logo.PNG" alt="" class="logo-icon light-img">
+        <img src="images/namelogo.PNG" alt="" class="logo-name light-img">
+
+        <img src="images/logo2.PNG" alt="" class="logo-icon dark-img">
+        <img src="images/namelogo2.PNG" alt="" class="logo-name dark-img">
+    </a>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#about">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <button
+        type="button"
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <button
+        type="button"
+        id="darkModeToggle"
+        class="theme-toggle"
+        aria-label="Switch to dark mode"
+        aria-pressed="false">
+        <img src="images/dark.PNG" alt="" class="moon-icon">
+        <img src="images/light.PNG" alt="" class="sun-icon">
+    </button>
+
+</nav>
+
+
+    <header class="headerbar">
+        <h1>SHOP</h1>
+
+        <p>
+            Explore bold graphics, loud colors, and tees with extra flavor.
+            Find your fit and bring the Hayburger swagger wherever you go.
+        </p>
+    </header>
+
+    <main>
+
+        <section class="shopmainbody">
+
+            <div class="productimg">
+                <img
+                    src="images/dogoodwork.PNG"
+                    alt="Do Good Work Tee"
+                    class="shirt-img"
+                >
+            </div>
+
+            <div class="productdetails">
+
+                <h2>Do Good Work Tee</h2>
+
+                <h5>Price ₱499</h5>
+
+                <h5>Size</h5>
+
+                <div class="sizeselector">
+                    <button type="button" class="szbtn" aria-pressed="false">XS</button>
+                    <button type="button" class="szbtn" aria-pressed="false">S</button>
+                    <button type="button" class="szbtn" aria-pressed="false">M</button>
+                    <button type="button" class="szbtn" aria-pressed="false">L</button>
+                    <button type="button" class="szbtn" aria-pressed="false">XL</button>
+                </div>
+
+                <h5>Quantity</h5>
+
+                <div class="qtyselector">
+
+                    <button
+                        type="button"
+                        class="qtybtn"
+                        id="decreaseQty"
+                        aria-label="Decrease quantity"
+                    >−</button>
+
+                    <input
+                        type="number"
+                        value="1"
+                        min="1"
+                        step="1"
+                        id="quantity"
+                        class="qtyinput"
+                        aria-label="Quantity"
+                    >
+
+                    <button
+                        type="button"
+                        class="qtybtn"
+                        id="increaseQty"
+                        aria-label="Increase quantity"
+                    >+</button>
+
+                </div>
+
+                <h5>Product Description</h5>
+
+                <p>
+                    A simple statement for people who believe good work speaks for itself.
+                </p>
+
+                <a
+                    href="mailto:shop@hayburger.com?subject=Do%20Good%20Work%20Tee%20Order"
+                    class="orderbtnlink"
+                >
+                    <img
+                        src="images/ordernow.PNG"
+                        alt="Order Now"
+                        class="orderbtn light-img"
+                    >
+
+                    <img
+                        src="images/ordernow2.PNG"
+                        alt="Order Now"
+                        class="orderbtn dark-img"
+                    >
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contact">
+
+        <div class="copyright">
+            <h3>Hayburger · © 2026</h3>
+            <p>All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="privacypolicy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
