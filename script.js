@@ -167,7 +167,7 @@ systemTheme.addEventListener("change", event => {
 
             const total = 499 * quantity;
 
-            const recipient = "Hello@Hayburger.com";
+            const recipient = "shop@Hayburger.com";
 
             const emailSubject = encodeURIComponent("Order Details");
 
